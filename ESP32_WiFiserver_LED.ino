@@ -10,7 +10,7 @@
 #include <WiFi.h>
 
 // Replace with your network credentials
-const char* ssid = "DomeHome_5G";
+const char* ssid = "Zoe";
 const char* password = "..333566";
 
 // Set web server port number to 80
