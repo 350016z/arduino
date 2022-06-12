@@ -123,7 +123,7 @@ void setup() //定義setup()函式
     Serial.printf(", channel: %i\n", WIFI_CHANNEL); 
     if (esp_now_init() != 0) Serial.println("*** ESP_Now init failed");
     //如果esp_now_init()的傳回值 不為0(true)，印出ESP_Now初始化失敗。
-    esp_now_register_recv_cb(recv_cb);  //註冊接收回調函數
+    esp_now_register_recv_cb(recv_cb);  //調用esp_now_register_recv_cb()註冊接收回調函數
   #endif
 
   delay(500); 
