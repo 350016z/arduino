@@ -7,7 +7,7 @@
 
 #define WIFI_CHANNEL 4  //定義WIFI頻道
 #define PWMOUT  // normal esc, uncomment for serial esc
-#define LED 2  //定義接腳位置
+#define LED 2  //定義變數
 #define CALSTEPS 256 // gyro and acc calibration steps
 //#define externRC // use of external RC receiver in ppmsum mode
 //#define webServer // use of webserver to change PID
